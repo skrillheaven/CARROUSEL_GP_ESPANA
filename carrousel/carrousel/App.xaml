@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="carrousel.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:Key="f1" x:TypeArguments="x:String">
+                <On Platform="Android" Value="Formula 1.ttf#Formula 1"/>
+            </OnPlatform>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+    
+    

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="carrousel.MainPage"
+             xmlns:controls="clr-namespace:Xamd.ImageCarousel.Forms.Plugin.Abstractions;assembly=Xamd.ImageCarousel.Forms.Plugin.Abstractions">
+
+    <StackLayout >
+        <Frame BackgroundColor="red" Padding="24" CornerRadius="0">
+            <Label Text="GP ESPANA 2022" HorizontalTextAlignment="Center" TextColor="White" FontSize="40" FontFamily="{StaticResource f1}"/>
+        </Frame>
+       
+        <StackLayout>
+            <Label Text="Resumen con fotografias del gp de Montmelo" FontSize="25" Padding="30,0,0,0" FontFamily="{StaticResource f1}"/>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+                <controls:ImageCarousel x:Name="imgSlider" HeightRequest="600" WidthRequest="400"/>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout>
+            <Label Text="CHECO PEREZ" FontSize="Title" TextColor="Blue" Padding="30,0,0,0" FontFamily="{StaticResource f1}"/>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+                <controls:ImageCarousel x:Name="imgcheco" HeightRequest="1000" WidthRequest="400" />
+            </StackLayout>
+        </StackLayout>
+        
+        
+    </StackLayout>
+    
+
+</ContentPage>
